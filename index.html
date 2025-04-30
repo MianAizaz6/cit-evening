@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="max-w-[1240px] mx-auto">
+    <header class="flex justify-between items-center py-4">
+      <div class="flex gap-5 px-2 md:px-0">
+        <img src="./assets/logo.svg" alt="" class="w-[120px] h-auto">
+        <nav class="md:flex gap-4 items-center hidden lg:flex">
+          <a href="">Dogs for sale</a>
+          <a href="">Listing</a>
+          <a href="">Marketplace</a>
+          <a href="">contact</a>
+          <a href="">About</a>
+        </nav>
+      </div>
+      <div class="md:flex gap-2 hidden lg:flex">
+        <button
+          class="bg-white border-[1px] border-gray-300 text-white px-3 py-[10px] rounded-lg font-[16px] font-medium">
+          <img src="./assets/Frame (1).svg" alt="">
+        </button>
+        <button
+          class="bg-white border-[1px] border-gray-300 text-white px-3 py-[10px] rounded-lg font-[16px] font-medium">
+          <img src="./assets/Frame (2).svg" alt="">
+        </button>
+        <button
+          class="bg-white border-[1px] border-[#1DB63B] text-white px-3 py-[10px] rounded-lg font-[16px] font-medium">
+          <img src="./assets/Frame (3).svg" alt="">
+        </button>
+        <button class="bg-[#1DB63B] text-white px-6 py-[10px] rounded-lg font-[16px] font-medium">+ Create
+          Listing</button>
+      </div>
+      <div class="block md:hidden lg:hidden px-3">
+        <img src="./assets/hamburger-svgrepo-com (2).svg" class="h-10" alt="">
+      </div>
+    </header>
+
+    <!-- Hero section -->
+
+    <section
+      class="bg-[url('./assets/dog-bg.png')] rounded-xl bg-cover no-repeat h-[80vh] bg-center overflow-hidden relative">
+      <div class="h-[370px] p-8 flex flex-col gap-4 absolute top-20 left-20 w-[460px] bg-white rounded-xl">
+        <h1 class="text-[36px] leading-[40px] font-medium">Puppies & Dogs <br>
+          for sale in Ireland</h1>
+
+        <div class="flex gap-4 justify-between">
+          <div class="flex border-[1px] border-gray-300 p-4 w-full rounded-lg justify-center items-center flex-col gap-2">
+            <img src="./assets/dog 1.svg" alt="" class="h-[55px]">
+            <p>For Sale</p>
+          </div>
+
+          <div class="flex border-[1px] border-gray-300 p-4 w-full rounded-lg justify-center items-center flex-col gap-2">
+            <img src="./assets/animals 1.svg" alt="" class="h-[55px]">
+            <p>For Rent</p>
+          </div>
+
+          <div class="flex border-[1px] border-gray-300 p-4 w-full rounded-lg justify-center items-center flex-col gap-2">
+            <img src="./assets/stethoscope 1.svg" alt="" class="h-[55px]">
+            <p>Vets</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</body>
+
+</html>
